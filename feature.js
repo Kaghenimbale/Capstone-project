@@ -90,5 +90,6 @@ const renderItems = (Speakers) => {
 renderItems(Speakers.slice(0, lastIndex));
 
 moreBtn.addEventListener('click', () => {
+  lastIndex += 2;
   renderItems(Speakers.slice(0, lastIndex + 2));
 });
