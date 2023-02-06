@@ -1,0 +1,63 @@
+:root {
+  --main-color: #272a31;
+  --primary-color: #ec5242;
+  --secondary-color: #d3d3d3;
+  --font-familly: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: var(--font-familly);
+}
+
+/* Navigation bar */
+
+.nav-bar {
+  padding: 1rem;
+  background: rgb(240, 240, 240);
+}
+
+/* Introduction section */
+
+.introduction {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: rgb(240, 240, 240);
+}
+
+.intro-1 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.introduction h1 {
+  background: url(image/Beautiful-Natural-Sunrise-with-Orange-Background-HD-Wallpaper.jpg);
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+
+.introduction h3 {
+  color: var(--main-color);
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.intro-2 {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: var(--main-color);
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.intro-3 {
+  font-size: 1.2rem;
+}
