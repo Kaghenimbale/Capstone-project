@@ -29,7 +29,43 @@ button:hover {
 }
 
 .nav-links {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(240, 240, 240, 0.268);
+  backdrop-filter: blur(10px);
+  margin-left: -1000px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.nav-links a {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
 }
 
 .logo {
@@ -172,6 +208,7 @@ section h2 {
 .profil {
   position: relative;
   width: 40%;
+  overflow: hidden;
 }
 
 .User {
@@ -253,10 +290,14 @@ section h2 {
     width: 100%;
   }
 
+  .close {
+    display: none;
+  }
+
   .nav-bar {
     background-color: white;
     box-shadow: 0 0 30px #d3d3d3;
-    padding: 1rem 10rem;
+    padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -267,19 +308,26 @@ section h2 {
   }
 
   .nav-links {
-    display: block;
+    display: flex;
+    background: none;
+    backdrop-filter: blur(0);
+    margin-left: 0;
+    width: fit-content;
+    height: max-content;
+    top: inherit;
+    left: inherit;
+    position: inherit;
   }
 
   .nav-links ul {
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    flex-direction: row;
   }
 
   .nav-links a {
     color: var(--main-color);
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
   }
 
   .initial a {
@@ -408,7 +456,8 @@ section h2 {
   }
 
   .feature-btn {
-    width: 10rem;
+    width: 15rem;
+    height: 3rem;
     margin: 0 auto;
     font-weight: bold;
   }
@@ -419,15 +468,5 @@ section h2 {
 
   .speakerprofile {
     width: 130px;
-  }
-
-  .last-img {
-    width: 20rem;
-    height: 35vh;
-  }
-
-  .last-img img {
-    width: 100%;
-    height: 100%;
   }
 }
