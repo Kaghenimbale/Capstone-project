@@ -301,6 +301,18 @@ section h2 {
     text-decoration: underline;
   }
 
+  .program {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .program:hover {
+    cursor: pointer;
+    border: 3px solid #d3d3d3;
+  }
+
   .nav-links a:hover {
     color: var(--primary-color);
     cursor: pointer;
@@ -340,21 +352,26 @@ section h2 {
 
   /* Programs */
 
+  .programs {
+    display: flex;
+    flex-direction: column;
+  }
+
   .program-container {
     gap: 0.3rem;
     padding: 0 10rem;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 
-  .program {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    text-align: center;
-  }
-
   .program-title {
     width: 100%;
+    font-weight: bold;
+  }
+
+  .program p {
+    color: var(--secondary-color);
+    font-weight: bold;
+    line-height: 1.3;
   }
 
   .program-icon {
@@ -368,5 +385,39 @@ section h2 {
   .view-program {
     display: block;
     text-align: center;
+    margin: 2rem 0;
+  }
+
+  .line {
+    margin: 0.3rem auto;
+  }
+
+  /* feature section */
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #speaker-id {
+    padding: 3rem 10rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
+  }
+
+  .feature-btn {
+    width: 10rem;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  .background {
+    width: 100px;
+  }
+
+  .speakerprofile {
+    width: 130px;
   }
 }
