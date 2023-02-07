@@ -12,6 +12,10 @@
   font-family: var(--font-familly);
 }
 
+a {
+  text-decoration: none;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -19,8 +23,17 @@ button:hover {
 /* Navigation bar */
 
 .nav-bar {
+  display: block;
   padding: 0.4rem 1rem;
   background: rgb(240, 240, 240);
+}
+
+.nav-links {
+  display: none;
+}
+
+.logo {
+  display: none;
 }
 
 /* Introduction section */
@@ -40,7 +53,7 @@ button:hover {
 }
 
 .introduction h1 {
-  background: url(image/Beautiful-Natural-Sunrise-with-Orange-Background-HD-Wallpaper.jpg);
+  background: url(image/wp4553502.webp);
   background-size: cover;
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -74,6 +87,11 @@ button:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  gap: 1rem;
+}
+
+.program-container {
   display: grid;
   gap: 1rem;
 }
@@ -126,6 +144,11 @@ section h2 {
   font-size: 1.2rem;
   font-weight: bold;
   white-space: nowrap;
+  display: block;
+}
+
+.view-program {
+  display: none;
 }
 
 .features {
@@ -216,4 +239,134 @@ section h2 {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* NAVBAR */
+
+  .logo {
+    display: block;
+    width: 6rem;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .nav-bar {
+    background-color: white;
+    box-shadow: 0 0 30px #d3d3d3;
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: var(--main-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .initial a {
+    color: var(--primary-color);
+  }
+
+  .campaign {
+    border: 5px solid #ec5242;
+    padding: 0.6rem 1rem;
+  }
+
+  .campaign a {
+    color: var(--primary-color);
+  }
+
+  .view-program a {
+    color: var(--secondary-color);
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  .nav-links a:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+
+  /* INTRODUCTION */
+  .introduction {
+    padding: 8rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .intro-1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .introduction h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    width: 60vw;
+  }
+
+  .intro-2 {
+    font-size: 1.2rem;
+    width: 60vw;
+  }
+
+  .introduction h3 {
+    font-size: 2.5rem;
+  }
+
+  .intro-3 {
+    font-weight: bold;
+  }
+
+  /* Programs */
+
+  .program-container {
+    gap: 0.3rem;
+    padding: 0 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .program-title {
+    width: 100%;
+  }
+
+  .program-icon {
+    width: 40px;
+  }
+
+  .Program-btn {
+    display: none;
+  }
+
+  .view-program {
+    display: block;
+    text-align: center;
+  }
 }
