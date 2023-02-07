@@ -420,4 +420,14 @@ section h2 {
   .speakerprofile {
     width: 130px;
   }
+
+  .last-img {
+    width: 20rem;
+    height: 35vh;
+  }
+
+  .last-img img {
+    width: 100%;
+    height: 100%;
+  }
 }

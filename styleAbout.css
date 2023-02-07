@@ -16,11 +16,31 @@ button:hover {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
+.contact-link {
+  text-decoration: underline;
+}
+
 /* Navigation bar */
 
 .nav-bar {
   padding: 0.4rem 1rem;
   background: rgb(240, 240, 240);
+}
+
+.logo {
+  display: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+.menu {
+  display: block;
 }
 
 /* Introduction section */
@@ -34,6 +54,7 @@ button:hover {
 }
 
 .intro-1 {
+  display: block;
   color: var(--primary-color);
   font-size: 1.5rem;
   font-weight: 500;
@@ -119,21 +140,23 @@ section h2 {
 }
 
 .last-images {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
   gap: 2rem;
-  margin: 2rem 0;
 }
 
 .img {
-  width: 100%;
-  height: 35vh;
-  object-fit: cover;
   position: relative;
 }
 
-.img img {
+.last-img {
+  width: 100vw;
+  object-fit: cover;
+}
+
+.last-img img {
   width: 100%;
-  height: 100%;
 }
 
 .text-last {
@@ -165,6 +188,7 @@ section h2 {
 /* Partners */
 
 .partners {
+  display: block;
   background-color: var(--main-color);
   padding: 2rem 1rem;
 }
@@ -209,4 +233,134 @@ section h2 {
 .last-text p {
   font-size: 1rem;
   font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  /* NAVIGATION BAR */
+
+  .logo {
+    display: block;
+    width: 6rem;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .nav-bar {
+    background-color: white;
+    box-shadow: 0 0 30px #d3d3d3;
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: block;
+  }
+
+  .nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: var(--main-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .initial a {
+    color: var(--primary-color);
+  }
+
+  .campaign {
+    border: 5px solid #ec5242;
+    padding: 0.6rem 1rem;
+  }
+
+  .campaign a {
+    color: var(--primary-color);
+  }
+
+  /* INTRODUCTION */
+
+  .introduction {
+    padding: 10rem 8rem;
+    gap: 3rem;
+  }
+
+  .introduction h1 {
+    font-size: 3.5rem;
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  .intro-1 {
+    display: none;
+  }
+
+  .intro-2 {
+    text-align: center;
+    width: 60vw;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+  .contact-us {
+    font-size: 1.4rem;
+  }
+
+  .created-logo {
+    width: 25vw;
+    box-shadow: 0 0 15px #d3d3d3;
+  }
+
+  .past-festival {
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 0 10px #d3d3d3;
+  }
+
+  .last-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .last-section {
+    padding: 2rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .last-logo {
+    width: 200px;
+  }
+
+  .last-text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .last-img {
+    width: 50vw;
+    object-fit: cover;
+  }
+
+  .last-img img {
+    width: 100%;
+  }
 }

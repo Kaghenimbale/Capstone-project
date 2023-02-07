@@ -1,5 +1,7 @@
 const speakerid = document.getElementById('speaker-id');
 const moreBtn = document.querySelector('.feature-btn');
+const backgroundRed = document.querySelectorAll('.img');
+console.log(backgroundRed);
 let lastIndex = 2;
 
 const Speakers = [
