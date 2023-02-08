@@ -36,21 +36,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com">Html</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://CSS.com/">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Client</summary>
-  <ul>
-    <li><a href="https://www.javascript.com">Javascript</a></li>
+    <li><a href="https://www.w3schools.com/html/">Html</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/">Javascript</a></li>
   </ul>
 </details>
 
@@ -89,65 +77,36 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Kaghenimbale/Capstone-project.git
-```
---->
+  - cd my-folder
+  - git clone https://github.com/Kaghenimbale/Capstone-project.git
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+  - cd my-project
+  - gem install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  Open the index.html in the browser
-```
---->
+  - cd my-project
+  - Open the index.html in the browser
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```  cd my-project
-  npx hint .
-  npx stylelint "**/*.{css,scss}"
-```
---->
+  - cd my-project
+  - npx hint .
+  - npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-    github page and choose the name of the branch to deploy
-```
- -->
+This project has not been deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +114,8 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Kagheni Mbale Christian**
+
 
 - GitHub: [@githubhandle](https://github.com/Kaghenimbale)
 - Twitter: [@twitterhandle](https://twitter.com/MbaleKagheni)
@@ -203,4 +163,4 @@ Thank you Microverse and my friend who always explain me for preparing this proj
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Kaghenimbale/my-portfolio/commit/55ba2a9f34c66b7803d1963fff7e3a1cdafbd12c)) licensed.
+This project is [MIT](https://github.com/Kaghenimbale/Capstone-project/blob/main/LICENCE.md)) licensed.
