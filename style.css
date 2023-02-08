@@ -20,6 +20,10 @@ button:hover {
   cursor: pointer;
 }
 
+#logout {
+  display: none;
+}
+
 /* Navigation bar */
 
 .nav-bar {
@@ -39,8 +43,7 @@ button:hover {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(240, 240, 240, 0.268);
-  backdrop-filter: blur(10px);
+  background-color: var(--main-color);
   margin-left: -1000px;
   transition-property: all;
   transition-duration: 1s;
@@ -56,7 +59,7 @@ button:hover {
 }
 
 .nav-links a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 1.5rem;
 }
 
@@ -66,6 +69,7 @@ button:hover {
   top: 1rem;
   right: 1rem;
   border: none;
+  background: none;
 }
 
 .logo {
@@ -177,7 +181,6 @@ section h2 {
   color: white;
   border: none;
   padding: 1rem;
-  font-size: 1.2rem;
   font-weight: bold;
   white-space: nowrap;
   display: block;
@@ -276,9 +279,30 @@ section h2 {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  border-radius: none;
 }
 
 @media screen and (min-width: 768px) {
+  #logout {
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.8rem 4rem;
+    gap: 1rem;
+  }
+
+  .logout-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logout-link a {
+    color: var(--secondary-color);
+    font-weight: bolder;
+  }
+
   /* NAVBAR */
 
   .logo {
@@ -296,7 +320,6 @@ section h2 {
 
   .nav-bar {
     background-color: white;
-    box-shadow: 0 0 30px #d3d3d3;
     padding: 1rem 5rem;
     display: flex;
     justify-content: space-between;
