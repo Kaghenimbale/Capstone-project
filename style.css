@@ -520,15 +520,15 @@ section h2 {
   .User:nth-child(3) {
     display: flex;
   }
-  
+
   .User:nth-child(4) {
     display: flex;
   }
-  
+
   .User:nth-child(5) {
     display: flex;
   }
-  
+
   .User:nth-child(6) {
     display: flex;
   }
@@ -542,19 +542,19 @@ section h2 {
     align-items: center;
     justify-content: center;
   }
-  
+
   .partners h2 {
     color: var(--secondary-color);
   }
-  
+
   .partner {
     width: 80px;
   }
-  
+
   .partner img {
     width: 100%;
   }
-  
+
   .festival-partner {
     display: flex;
     flex-wrap: wrap;
@@ -562,7 +562,7 @@ section h2 {
     justify-content: center;
     gap: 5rem;
   }
-  
+
   .last-section {
     display: flex;
     align-items: center;
@@ -570,14 +570,14 @@ section h2 {
     gap: 2rem;
     background: rgb(240, 240, 240);
   }
-  
+
   .last-logo {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
+
   .last-logo img {
     width: 150px;
   }
@@ -588,7 +588,7 @@ section h2 {
     align-items: center;
     justify-content: center;
   }
-  
+
   .last-text p {
     font-size: 1.2rem;
     font-weight: 600;

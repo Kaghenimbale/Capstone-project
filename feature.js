@@ -1,6 +1,4 @@
 const speakerid = document.getElementById('speaker-id');
-const moreBtn = document.querySelector('.feature-btn');
-let lastIndex = 2;
 
 const Speakers = [
   {
@@ -118,8 +116,3 @@ const renderItems = (Speakers) => {
 };
 
 renderItems(Speakers);
-
-// moreBtn.addEventListener('click', () => {
-//   lastIndex += 2;
-//   renderItems(Speakers.slice(0, lastIndex + 2));
-// });
