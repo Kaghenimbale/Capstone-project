@@ -161,7 +161,7 @@ Give a start ⭐️ If you like this project...
 
 Thanks to cindy the Dsigner of the project Template
 
-[Cindy Shin in Behance](https://www.behance.net/adagio07))
+[Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
 
