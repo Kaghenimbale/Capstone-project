@@ -64,9 +64,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Know the purpose of Amani Festival]**
+- **[To reachout the world over]**
+- **[Understand what happen in the east of Congo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +76,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://kaghenimbale.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,13 +92,8 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Install Git on your computer following the steps [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Install node js following the steps [here](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 
 ### Setup
 
@@ -109,7 +104,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Kaghenimbale/Capstone-project.git
 ```
 --->
 
@@ -134,7 +129,8 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
+  cd my-project
+  Open the index.html in the browser
 ```
 --->
 
@@ -145,8 +141,9 @@ To run tests, run the following command:
 <!--
 Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
+```  cd my-project
+  npx hint .
+  npx stylelint "**/*.{css,scss}"
 ```
 --->
 
@@ -158,7 +155,7 @@ You can deploy this project using:
 Example:
 
 ```sh
-
+    github page and choose the name of the branch to deploy
 ```
  -->
 
@@ -172,15 +169,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Kaghenimbale)
+- Twitter: [@twitterhandle](https://twitter.com/MbaleKagheni)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kagheni-mbale-401b90240/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,9 +181,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Complete all the navigation bar project]**
+- [ ] **[Adjust the styling]**
+- [ ] **[Add others functionality using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,7 +203,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+Give a start ⭐️ If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +213,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -246,7 +237,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Kaghenimbale/my-portfolio/commit/55ba2a9f34c66b7803d1963fff7e3a1cdafbd12c)) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
