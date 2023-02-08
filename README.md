@@ -60,7 +60,7 @@
 
 <!-- VIDEO DEMO -->
 
-- [Video explanation of the project](https://www.awesomescreenshot.com/video/14637069))
+- [Video explanation of the project](https://www.awesomescreenshot.com/video/14637069?key=e508767d407c025c5fc106333f95c6ed))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
