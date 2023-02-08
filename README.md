@@ -58,6 +58,10 @@
 
 - [Live Demo Link](https://kaghenimbale.github.io/Capstone-project/)
 
+<!-- VIDEO DEMO -->
+
+- [Video explanation of the project](https://www.awesomescreenshot.com/video/14637069))
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -154,6 +158,10 @@ Give a start ⭐️ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks to cindy the Dsigner of the project Template
+
+[Cindy Shin in Behance](https://www.behance.net/adagio07))
 
 Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
 

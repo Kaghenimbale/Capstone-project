@@ -205,7 +205,6 @@ section h2 {
   flex-direction: column;
   width: 100%;
   gap: 0.8rem;
-  background-color: red;
 }
 
 .profil {
@@ -216,6 +215,22 @@ section h2 {
 
 .User {
   display: flex;
+}
+
+.User:nth-child(3) {
+  display: none;
+}
+
+.User:nth-child(4) {
+  display: none;
+}
+
+.User:nth-child(5) {
+  display: none;
+}
+
+.User:nth-child(6) {
+  display: none;
 }
 
 #speaker-id {
@@ -280,6 +295,14 @@ section h2 {
   justify-content: center;
   gap: 0.5rem;
   border-radius: 0;
+}
+
+.partners {
+  display: none;
+}
+
+.last-section {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -479,6 +502,7 @@ section h2 {
   }
 
   .feature-btn {
+    display: none;
     width: 15rem;
     height: 3rem;
     margin: 0 auto;
@@ -491,5 +515,82 @@ section h2 {
 
   .speakerprofile {
     width: 130px;
+  }
+
+  .User:nth-child(3) {
+    display: flex;
+  }
+  
+  .User:nth-child(4) {
+    display: flex;
+  }
+  
+  .User:nth-child(5) {
+    display: flex;
+  }
+  
+  .User:nth-child(6) {
+    display: flex;
+  }
+
+  .partners {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    padding: 2rem 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .partners h2 {
+    color: var(--secondary-color);
+  }
+  
+  .partner {
+    width: 80px;
+  }
+  
+  .partner img {
+    width: 100%;
+  }
+  
+  .festival-partner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  
+  .last-section {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 2rem;
+    background: rgb(240, 240, 240);
+  }
+  
+  .last-logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .last-logo img {
+    width: 150px;
+  }
+
+  .last-text {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .last-text p {
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 }

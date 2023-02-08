@@ -6,12 +6,12 @@ const links = document.querySelectorAll('#link');
 
 redtarget.forEach((item) => {
   item.addEventListener('mouseenter', () => {
-    item.style.top = '-1000px';
+    // item.style.top = '-1000px';
     item.style.right = '1000px';
   });
 
   item.addEventListener('mouseout', () => {
-    item.style.top = 0;
+    // item.style.top = 0;
     item.style.right = 0;
   });
 });

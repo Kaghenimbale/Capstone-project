@@ -62,6 +62,36 @@ const Speakers = [
       alt: 'sqaure',
     },
   },
+
+  {
+    id: 'speakers5',
+    name: 'Jonathan Kuminga',
+    profession: 'The best best young player in the Republic Democratic of Congo playing for the golden state warrior. Influencer of young basketball players.',
+    Profil: {
+      src: 'image/kuminga.jpg',
+      alt: 'jk',
+    },
+    about: 'He is an congolese Artist living in USA. Named Eagle, and Daddy of 6 childreen and Married to Nana Ketchup.',
+    background: {
+      src: 'image/square.jpg',
+      alt: 'sqaure',
+    },
+  },
+
+  {
+    id: 'speakers6',
+    name: 'Kagheni Chris',
+    profession: 'The best web developer in the Republic Democratic of Congo. Influencer of young.',
+    Profil: {
+      src: 'image/chris.jpg',
+      alt: 'mk34',
+    },
+    about: 'He is an congolese Artist living in France. Named Eagle, and Daddy of 6 childreen and Married to Nana Ketchup.',
+    background: {
+      src: 'image/square.jpg',
+      alt: 'sqaure',
+    },
+  },
 ];
 
 const renderItems = (Speakers) => {
@@ -87,9 +117,9 @@ const renderItems = (Speakers) => {
   });
 };
 
-renderItems(Speakers.slice(0, lastIndex));
+renderItems(Speakers);
 
-moreBtn.addEventListener('click', () => {
-  lastIndex += 2;
-  renderItems(Speakers.slice(0, lastIndex + 2));
-});
+// moreBtn.addEventListener('click', () => {
+//   lastIndex += 2;
+//   renderItems(Speakers.slice(0, lastIndex + 2));
+// });
